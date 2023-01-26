@@ -11,7 +11,7 @@ import SwiftUI
 struct _0230125_ScrumdingerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MeetingView_Previews()
         }
     }
 }

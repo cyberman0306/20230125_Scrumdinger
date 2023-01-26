@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		F36201ED298104FF009B6944 /* _0230125_ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36201EC298104FF009B6944 /* _0230125_ScrumdingerApp.swift */; };
-		F36201EF298104FF009B6944 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36201EE298104FF009B6944 /* ContentView.swift */; };
+		F36201EF298104FF009B6944 /* MeetingView_Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36201EE298104FF009B6944 /* MeetingView_Previews.swift */; };
 		F36201F129810500009B6944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F36201F029810500009B6944 /* Assets.xcassets */; };
 		F36201F529810500009B6944 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F36201F429810500009B6944 /* Preview Assets.xcassets */; };
 		F36201FF29810500009B6944 /* _0230125_ScrumdingerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36201FE29810500009B6944 /* _0230125_ScrumdingerTests.swift */; };
 		F362020929810500009B6944 /* _0230125_ScrumdingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F362020829810500009B6944 /* _0230125_ScrumdingerUITests.swift */; };
 		F362020B29810500009B6944 /* _0230125_ScrumdingerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F362020A29810500009B6944 /* _0230125_ScrumdingerUITestsLaunchTests.swift */; };
+		F39B0B7729821623000037C7 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39B0B7629821623000037C7 /* Theme.swift */; };
+		F39B0B7929821DB2000037C7 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39B0B7829821DB2000037C7 /* DailyScrum.swift */; };
+		F39B0B7B298221DA000037C7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39B0B7A298221DA000037C7 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		F36201E9298104FF009B6944 /* 20230125_Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 20230125_Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F36201EC298104FF009B6944 /* _0230125_ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0230125_ScrumdingerApp.swift; sourceTree = "<group>"; };
-		F36201EE298104FF009B6944 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F36201EE298104FF009B6944 /* MeetingView_Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView_Previews.swift; sourceTree = "<group>"; };
 		F36201F029810500009B6944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F36201F229810500009B6944 /* _0230125_Scrumdinger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _0230125_Scrumdinger.entitlements; sourceTree = "<group>"; };
 		F36201F429810500009B6944 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +48,9 @@
 		F362020429810500009B6944 /* 20230125_ScrumdingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 20230125_ScrumdingerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F362020829810500009B6944 /* _0230125_ScrumdingerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0230125_ScrumdingerUITests.swift; sourceTree = "<group>"; };
 		F362020A29810500009B6944 /* _0230125_ScrumdingerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0230125_ScrumdingerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F39B0B7629821623000037C7 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		F39B0B7829821DB2000037C7 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		F39B0B7A298221DA000037C7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +101,10 @@
 		F36201EB298104FF009B6944 /* 20230125_Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				F39B0B7529821605000037C7 /* Models */,
 				F36201EC298104FF009B6944 /* _0230125_ScrumdingerApp.swift */,
-				F36201EE298104FF009B6944 /* ContentView.swift */,
+				F39B0B7A298221DA000037C7 /* CardView.swift */,
+				F36201EE298104FF009B6944 /* MeetingView_Previews.swift */,
 				F36201F029810500009B6944 /* Assets.xcassets */,
 				F36201F229810500009B6944 /* _0230125_Scrumdinger.entitlements */,
 				F36201F329810500009B6944 /* Preview Content */,
@@ -127,6 +135,15 @@
 				F362020A29810500009B6944 /* _0230125_ScrumdingerUITestsLaunchTests.swift */,
 			);
 			path = 20230125_ScrumdingerUITests;
+			sourceTree = "<group>";
+		};
+		F39B0B7529821605000037C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F39B0B7629821623000037C7 /* Theme.swift */,
+				F39B0B7829821DB2000037C7 /* DailyScrum.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F36201EF298104FF009B6944 /* ContentView.swift in Sources */,
+				F39B0B7929821DB2000037C7 /* DailyScrum.swift in Sources */,
+				F39B0B7729821623000037C7 /* Theme.swift in Sources */,
+				F36201EF298104FF009B6944 /* MeetingView_Previews.swift in Sources */,
 				F36201ED298104FF009B6944 /* _0230125_ScrumdingerApp.swift in Sources */,
+				F39B0B7B298221DA000037C7 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
